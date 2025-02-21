@@ -1,0 +1,26 @@
+:root {
+  --vermelho: #c63434;
+  --vermelho-hover: #a52929;
+  --cinzaI: #333333;
+  --cinzaII: #505050;
+  --cinzaIII: #d9d9d9;
+  --brancoI: #eeeeee;
+  --brancoII: #efefef;
+  
+  --branco: #ffffff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-poppins), Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+

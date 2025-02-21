@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    padding: 4rem 11rem;
+    gap: 2rem;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cardAdicionar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    height: 48%;
+    width: 16%;
+    gap: 5rem;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--branco);
+    border-radius: 10px;
+}
+
+.button{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border: none;
+    padding: 0.3rem 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+
+.button:hover{
+    background-color: var(--vermelho-hover);
+    cursor: pointer;
+}

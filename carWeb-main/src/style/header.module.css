@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 1rem;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.btnMenu, .perfil{
+    background-color: transparent !important;
+    border: none;
+    cursor: pointer;
+}
+
+.menuIcon{
+    color: var(--cinzaII)
+}
+
+.containerPesquise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerPesquise > input{
+    background-color: var(--cinzaIII);
+    border: none;
+    height: 2.5rem;
+    width: 35rem;
+    outline: none;
+    padding: 1rem;
+}
+
+.btnPesquisa{
+    background-color: var(--vermelho);
+    border: none;
+    padding: 0.4rem;
+    
+}
+
+.btnPesquisa:hover{
+    background-color: var(--vermelho-hover);
+    cursor: pointer;
+}
+ 

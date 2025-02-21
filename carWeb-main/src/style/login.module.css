@@ -1,0 +1,147 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.esquerda{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+  width: 35%;
+  height: 100%;
+  background-color: var(--vermelho);
+}
+
+.esquerdaTitulo{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--branco);
+}
+
+.esquerdaTitulo > h1{
+  font-size: 2.3rem;
+}
+
+.esquerdaTitulo > p{
+  font-size: 1.2rem;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  width: 100%;
+
+}
+
+.logo> p{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.direita{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:70%;
+}
+
+.direita > p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9rem;
+  color: var(--cinzaII);
+  width: 100%;
+}
+
+.containerForm{
+  background-color: var(--cinzaIII);
+  border-radius: 15px;
+  padding: 1rem 2rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.form > div{
+  display: flex;
+  flex-direction: column;
+}
+
+.form >div > label{
+  font-size: 1.1rem;
+  color: var(--cinzaI);
+}
+
+.form >div > input{ 
+  color: var(--cinzaI);
+  background-color: var(--branco);
+  border:  none !important;
+  border-color: transparent !important;
+  border-radius: 10px;
+  width: 40rem;
+  height: 2.5rem;
+  padding: 1rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form >div > input::placeholder{
+  color: var(--cinzaIII);
+  font-size: 1.1rem;
+  text-align: start;
+}
+
+.footerForm{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.2rem;
+  width: 40rem;
+}
+
+.footerForm > p {
+  font-size: 1rem;
+}
+
+.footerForm > p > a{
+  gap: 0.5rem;
+  color: var(--vermelho);
+}
+
+.footerForm > p > a:hover{
+  cursor: pointer;
+  color: var(--vermelho-hover);
+}
+
+.btnCriarConta{
+  background-color: var(--vermelho);
+  color: var(--branco);
+  border: none;
+  padding: 1.2rem 2rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  transition: background-color 0.1s ease-in-out;
+  font-weight: 700;
+}
+
+.btnCriarConta:hover{
+  cursor: pointer;
+  background-color: var(--vermelho-hover);
+}
